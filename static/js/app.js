@@ -23,3 +23,4 @@ function clickEvent()
         filterDateTime = filterDateTime.filter((row) => row.datetime === date);
     }
     appendTable(filterDateTime);
+}
