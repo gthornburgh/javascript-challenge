@@ -20,3 +20,5 @@ function clickEvent()
     var date = d3.select("#datetime").property("value");
     var filterDateTime = tableData;
     if (date) {
+        filterDateTime = filterDateTime.filter((row) => row.datetime === date);
+    }
