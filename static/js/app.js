@@ -4,3 +4,4 @@ function appendTable(data)
 {
     d3.select("tbody").html("");
     data.forEach((selection) => {
+        var tableRow = d3.select("tbody").append("tr");
