@@ -11,3 +11,6 @@ function appendTable(data)
     });
 })
 }
+
+
+appendTable(tableData);
