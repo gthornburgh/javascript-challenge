@@ -15,4 +15,5 @@ function appendTable(data)
 
 appendTable(tableData);
 
-function clickEvent() {
+function clickEvent() 
+    d3.event.preventDefault();
