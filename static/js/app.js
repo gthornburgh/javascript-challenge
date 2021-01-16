@@ -18,3 +18,4 @@ appendTable(tableData);
 function clickEvent() 
     d3.event.preventDefault();
     var date = d3.select("#datetime").property("value");
+    var filterDateTime = tableData;
