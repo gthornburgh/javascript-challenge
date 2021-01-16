@@ -22,3 +22,4 @@ function clickEvent()
     if (date) {
         filterDateTime = filterDateTime.filter((row) => row.datetime === date);
     }
+    appendTable(filterDateTime);
