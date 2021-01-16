@@ -25,4 +25,4 @@ function clickEvent()
     appendTable(filterDateTime);
 }
 
-d3.selectAll("#filter-btn").on
+d3.selectAll("#filter-btn").on("click", clickEvent);
